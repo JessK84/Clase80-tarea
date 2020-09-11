@@ -2,27 +2,13 @@ header {
     margin: 0px auto 0px;
     background-color: #B71C1C;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: row-reverse;
     font-weight: 100;
     padding: 0px;
-    nav {
-        margin: 30px;      
-        a {
-            padding-left: 20px;
-            color: white;
-            font-size: 16px;
-            text-decoration: none;
-            transition: 0.7s;
-            cursor: pointer;
-            &:hover {
-                color: rgb(216, 216, 216);
-            }
-        }
+    .titulo {
+        padding-right: 50px;
+        color: white;
     }
 }
 
-.titulo {
-        padding-right: 50px;
-        color: white;
-}
+

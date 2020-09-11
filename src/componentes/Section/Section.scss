@@ -1,23 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 .contenedor {
+    position: absolute;
     margin: 0px auto;
     background-color: #fdf5a8;
-    padding: 80px;
-    height: 60vh;
+    // padding: 80px;
+    height: 128vh;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     vertical-align: middle;
     h1 {
+        padding-top: 50px;
+        padding-right: 100px;
         margin: 0px;
         font-size: 60px;
     }
     p {
         font-family: 'Roboto', sans-serif;
+        text-align: center;
+        padding-right: 100px;
+    }
+    .react {
+        position: relative;
+        left: 530px;
+        top: 380px;
+        padding: 20px 10px;
+        width: 200px;
     }
 }
 
-.react {
-    padding: 20px 10px;
-    width: 320px;
-}
