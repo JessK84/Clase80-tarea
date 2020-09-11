@@ -1,0 +1,45 @@
+footer {
+    background-color:  #B71C1C;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center
+    } 
+    .iconos-redes {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        i {
+            margin-left: 30px;
+            font-size: 35px;
+            cursor: pointer;
+            transition: 0.7s;
+            &#instagram:hover {
+                color:#3f729b;
+            }
+            &#whatsapp:hover {
+                color: #00bb2d;
+            }
+            &#twitter:hover {
+                color: #00acee;
+            }
+            &#git-hub:hover {
+                color: #211F1F;
+            }
+        }
+    }
+    #icono {
+        text-align: center;
+        font-size: 12px;
+        margin: 0px auto;
+    }
+    a{
+        cursor: pointer;
+        color: white;
+        text-decoration: none;
+    }
+}
