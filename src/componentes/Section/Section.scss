@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 .contenedor {
-    position: absolute;
-    margin: 0px auto;
-    background-color: #fdf5a8;
-    // padding: 80px;
-    height: 128vh;
+    margin: 0px;
+    background-color: #FFF9C4;
+    height: calc(100vh - 70px - 100px);
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     vertical-align: middle;
+    width: calc(100vw - 150px);
     h1 {
         padding-top: 50px;
         padding-right: 100px;
@@ -22,8 +21,8 @@
     }
     .react {
         position: relative;
-        left: 530px;
-        top: 380px;
+        left: 30px;
+        top: 100px;
         padding: 20px 10px;
         width: 200px;
     }

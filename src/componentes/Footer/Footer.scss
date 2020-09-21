@@ -1,22 +1,26 @@
 footer {
     background-color:  #B71C1C;
     color: white;
-    padding: 20px;
     font-size: 18px;
-    position: relative;
-    top: 0px;
-
+    height: 100px;
+    margin: 0px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     ul {
         list-style: none;
         display: flex;
         flex-direction: row;
-        justify-content: center
+        justify-content: center;
+        margin: 0px 0px 30px;
     } 
     .iconos-redes {
         display: flex;
         flex-direction: row;
         justify-content: center;
         i {
+            margin: 0px;
             margin-left: 30px;
             font-size: 35px;
             cursor: pointer;
@@ -44,5 +48,28 @@ footer {
         cursor: pointer;
         color: white;
         text-decoration: none;
+    }
+    .footer-social-media{
+        .footer-button {
+            background-color:#FFF59D;
+            border:#FFF59D;
+            border-radius: 5px;
+            padding: 6px;
+            margin-bottom: 20px;
+            width: 130px;
+            box-sizing: border-box;
+            color: black;
+            font-size: 20px;
+            letter-spacing: 3px;
+            font-family: 'Bebas Neue', cursive;
+            &:hover{
+                background-color: #fae317;
+            }
+         
+            &:focus{
+                outline: none;
+            }
+        }
+
     }
 }

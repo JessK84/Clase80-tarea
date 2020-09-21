@@ -3,7 +3,7 @@ import './Header.scss';
 
 const Header = () => {
     return (
-        <header>
+        <header id="inicio">
             <h2 className='titulo'>Primera tarea React!</h2>
         </header>       
     )
